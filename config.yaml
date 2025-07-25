@@ -1,0 +1,13 @@
+sources:
+  yahoo: false
+  finnhub: true
+  moex: false
+
+metrics:
+  include:
+    - pe_ratio
+    - pb_ratio
+
+defaults:
+  currency: USD
+  region: US

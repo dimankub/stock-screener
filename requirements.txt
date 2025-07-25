@@ -1,0 +1,3 @@
+finnhub-python>=2.4.17
+pandas>=2.2.2
+python-dotenv>=1.0.1
