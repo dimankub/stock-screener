@@ -5,8 +5,10 @@ from dotenv import load_dotenv
 load_dotenv()
 
 api_key = os.getenv("FINNHUB_API_KEY")
-client = finnhub.Client(api_key=api_key)
+if not api_key:
+    raise ValueError("FINNHUB_API_KEY не найден в .env")
 
+client = finnhub.Client(api_key=api_key)
 
 def fetch_basic_data(ticker: str) -> dict:
     try:
