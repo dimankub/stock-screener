@@ -7,6 +7,8 @@ def main():
         print(f"\n[{ticker}] {data.get('name', '')}")
         print(f"Цена: {data.get('price')}")
         print(f"Рыночная капитализация: {data.get('market_cap')}")
+        print(f"P/E: {data.get('pe_ratio')}")
+        print(f"P/B: {data.get('pb_ratio')}")
     else:
         print("Не удалось получить данные.")
 

@@ -14,13 +14,15 @@ def fetch_basic_data(ticker: str) -> dict:
     try:
         quote = client.quote(ticker)
         profile = client.company_profile2(symbol=ticker)
+        fundamentals = client.company_basic_financials(ticker, metric="all")["metric"]
 
         return {
             "name": profile.get("name"),
             "price": quote.get("c"),
-            "market_cap": profile.get("marketCapitalization")
+            "market_cap": profile.get("marketCapitalization"),
+            "pe_ratio": fundamentals.get("peBasicExclExtraTTM"),
+            "pb_ratio": fundamentals.get("pbAnnual")
         }
     except Exception as e:
         print(f"Ошибка при получении данных: {e}")
         return {}
-
