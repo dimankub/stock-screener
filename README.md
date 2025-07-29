@@ -5,8 +5,11 @@
 
 ## MVP-функции
 - Поиск акций по тикеру
-- Получение базовых данных
-    Расчёт коэффициентов P/E и P/B
+- Расчёт и отображение финансовых данных:
+  - P/E (Price to Earnings)
+  - P/B (Price to Book)
+  - ROE (Return on Equity)
+  - ROA (Return on Assets)
 
 
 ## Установка
