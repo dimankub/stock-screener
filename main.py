@@ -9,6 +9,8 @@ def main():
         print(f"Рыночная капитализация: {data.get('market_cap')}")
         print(f"P/E: {data.get('pe_ratio')}")
         print(f"P/B: {data.get('pb_ratio')}")
+        print(f"ROE: {data.get('roe')}")
+        print(f"ROA: {data.get('roa')}")
     else:
         print("Не удалось получить данные.")
 

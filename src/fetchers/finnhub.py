@@ -21,7 +21,11 @@ def fetch_basic_data(ticker: str) -> dict:
             "price": quote.get("c"),
             "market_cap": profile.get("marketCapitalization"),
             "pe_ratio": fundamentals.get("peBasicExclExtraTTM"),
-            "pb_ratio": fundamentals.get("pbAnnual")
+            "pb_ratio": fundamentals.get("pbAnnual"),
+            "roe": fundamentals.get("roeAnnual"),
+            "roa": fundamentals.get("roaAnnual")
+
+
         }
     except Exception as e:
         print(f"Ошибка при получении данных: {e}")
