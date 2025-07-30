@@ -11,6 +11,7 @@ def main():
         print(f"P/B: {data.get('pb_ratio')}")
         print(f"ROE: {data.get('roe')}")
         print(f"ROA: {data.get('roa')}")
+        print(f"Маржа: {data.get('net_margin')}")
     else:
         print("Не удалось получить данные.")
 

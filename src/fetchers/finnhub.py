@@ -23,7 +23,9 @@ def fetch_basic_data(ticker: str) -> dict:
             "pe_ratio": fundamentals.get("peBasicExclExtraTTM"),
             "pb_ratio": fundamentals.get("pbAnnual"),
             "roe": fundamentals.get("roeAnnual"),
-            "roa": fundamentals.get("roaAnnual")
+            "roa": fundamentals.get("roaAnnual"),
+            "net_margin": fundamentals.get("netProfitMarginAnnual")
+            
 
 
         }
