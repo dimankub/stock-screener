@@ -12,6 +12,8 @@ def main():
         print(f"ROE: {data.get('roe')}")
         print(f"ROA: {data.get('roa')}")
         print(f"Маржа: {data.get('net_margin')}")
+        print(f"Дивидендная доходность: {data.get('dividend_yield')}")
+
     else:
         print("Не удалось получить данные.")
 

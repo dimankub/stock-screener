@@ -14,6 +14,7 @@
   - ROE (Return on Equity)
   - ROA (Return on Assets)
   - Net Profit Margin
+  - Dividend Yield
 
 
 ## Установка
