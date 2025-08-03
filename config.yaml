@@ -3,10 +3,17 @@ sources:
   finnhub: true
   moex: false
 
+
+## Metrics - pe_ratio, pb_ratio, roe, roa, net_margin, dividend_yield
+
 metrics:
   include:
     - pe_ratio
     - pb_ratio
+    - roe
+    - roa
+    - net_margin
+    - dividend_yield
 
 defaults:
   currency: USD

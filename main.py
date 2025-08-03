@@ -1,19 +1,33 @@
+import yaml
 from src.fetchers.finnhub import fetch_basic_data
+
+LABELS = {
+    "pe_ratio": "P/E",
+    "pb_ratio": "P/B",
+    "roe": "ROE",
+    "roa": "ROA",
+    "net_margin": "Net Margin",
+    "dividend_yield": "Dividend Yield"
+}
+
+with open("config.yaml", "r", encoding="utf-8") as f:
+    config = yaml.safe_load(f)
+
+enabled_metrics = config.get("metrics", {}).get("include", [])
 
 def main():
     ticker = input("Введите тикер акции: ").upper()
     data = fetch_basic_data(ticker)
+
     if data:
         print(f"\n[{ticker}] {data.get('name', '')}")
         print(f"Цена: {data.get('price')}")
         print(f"Рыночная капитализация: {data.get('market_cap')}")
-        print(f"P/E: {data.get('pe_ratio')}")
-        print(f"P/B: {data.get('pb_ratio')}")
-        print(f"ROE: {data.get('roe')}")
-        print(f"ROA: {data.get('roa')}")
-        print(f"Маржа: {data.get('net_margin')}")
-        print(f"Дивидендная доходность: {data.get('dividend_yield')}")
 
+        for key in enabled_metrics:
+            label = LABELS.get(key, key.replace("_", " ").title())
+            value = data.get(key)
+            print(f"{label}: {value}")
     else:
         print("Не удалось получить данные.")
 

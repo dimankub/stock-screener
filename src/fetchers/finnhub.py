@@ -1,5 +1,6 @@
 import finnhub
 import os
+import yaml
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -10,26 +11,38 @@ if not api_key:
 
 client = finnhub.Client(api_key=api_key)
 
+with open("config.yaml", "r", encoding="utf-8") as f:
+    config = yaml.safe_load(f)
+
+enabled_metrics = set(config.get("metrics", {}).get("include", []))
+
 def fetch_basic_data(ticker: str) -> dict:
     try:
         quote = client.quote(ticker)
         profile = client.company_profile2(symbol=ticker)
         fundamentals = client.company_basic_financials(ticker, metric="all")["metric"]
 
-        return {
+        data = {
             "name": profile.get("name"),
             "price": quote.get("c"),
-            "market_cap": profile.get("marketCapitalization"),
-            "pe_ratio": fundamentals.get("peBasicExclExtraTTM"),
-            "pb_ratio": fundamentals.get("pbAnnual"),
-            "roe": fundamentals.get("roeAnnual"),
-            "roa": fundamentals.get("roaAnnual"),
-            "net_margin": fundamentals.get("netProfitMarginAnnual"),
-            "dividend_yield": fundamentals.get("dividendYieldAnnual"),
-            
-
-
+            "market_cap": profile.get("marketCapitalization")
         }
+
+        if "pe_ratio" in enabled_metrics:
+            data["pe_ratio"] = fundamentals.get("peBasicExclExtraTTM")
+        if "pb_ratio" in enabled_metrics:
+            data["pb_ratio"] = fundamentals.get("pbAnnual")
+        if "roe" in enabled_metrics:
+            data["roe"] = fundamentals.get("roeAnnual")
+        if "roa" in enabled_metrics:
+            data["roa"] = fundamentals.get("roaAnnual")
+        if "net_margin" in enabled_metrics:
+            data["net_margin"] = fundamentals.get("netProfitMarginAnnual")
+        if "dividend_yield" in enabled_metrics:
+            data["dividend_yield"] = fundamentals.get("dividendYieldIndicatedAnnual")
+
+        return data
+
     except Exception as e:
         print(f"Ошибка при получении данных: {e}")
         return {}
