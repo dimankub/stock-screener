@@ -7,7 +7,8 @@ LABELS = {
     "roe": "ROE",
     "roa": "ROA",
     "net_margin": "Net Margin",
-    "dividend_yield": "Dividend Yield"
+    "dividend_yield": "Dividend Yield",
+    "eps_ttm": "EPS TTM"
 }
 
 with open("config.yaml", "r", encoding="utf-8") as f:
