@@ -4,17 +4,19 @@ sources:
   moex: false
 
 
-## Metrics - pe_ratio, pb_ratio, roe, roa, net_margin, dividend_yield
+## Metrics - pe_ratio, pb_ratio, roeTTM, roaTTM, roiTTM, net_margin, dividend_yield, eps_ttm
 
 metrics:
   include:
     - pe_ratio
     - pb_ratio
-    - roe
-    - roa
+    - roeTTM
+    - roaTTM
+    - roiTTM
     - net_margin
     - dividend_yield
     - eps_ttm
+    
 
 defaults:
   currency: USD

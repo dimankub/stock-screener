@@ -32,10 +32,12 @@ def fetch_basic_data(ticker: str) -> dict:
             data["pe_ratio"] = fundamentals.get("peBasicExclExtraTTM")
         if "pb_ratio" in enabled_metrics:
             data["pb_ratio"] = fundamentals.get("pbAnnual")
-        if "roe" in enabled_metrics:
-            data["roe"] = fundamentals.get("roeAnnual")
-        if "roa" in enabled_metrics:
-            data["roa"] = fundamentals.get("roaAnnual")
+        if "roeTTM" in enabled_metrics:
+            data["roeTTM"] = fundamentals.get("roeTTM")
+        if "roaTTM" in enabled_metrics:
+            data["roaTTM"] = fundamentals.get("roaTTM")
+        if "roiTTM" in enabled_metrics:
+            data["roiTTM"] = fundamentals.get("roiTTM")
         if "net_margin" in enabled_metrics:
             data["net_margin"] = fundamentals.get("netProfitMarginAnnual")
         if "dividend_yield" in enabled_metrics:

@@ -4,11 +4,12 @@ from src.fetchers.finnhub import fetch_basic_data
 LABELS = {
     "pe_ratio": "P/E",
     "pb_ratio": "P/B",
-    "roe": "ROE",
-    "roa": "ROA",
+    "roeTTM": "ROE TTM",
+    "roaTTM": "ROA TTM",
+    "roiTTM": "ROI TTM",
     "net_margin": "Net Margin",
     "dividend_yield": "Dividend Yield",
-    "eps_ttm": "EPS TTM"
+    "eps_ttm": "EPS TTM",
 }
 
 with open("config.yaml", "r", encoding="utf-8") as f:
