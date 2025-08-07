@@ -44,6 +44,8 @@ def fetch_basic_data(ticker: str) -> dict:
             data["dividend_yield"] = fundamentals.get("dividendYieldIndicatedAnnual")
         if "eps_ttm" in enabled_metrics:
             data["eps_ttm"] = fundamentals.get("epsTTM")
+        if "pfcfShareTTM" in enabled_metrics:
+            data["pfcfShareTTM"] = fundamentals.get("pfcfShareTTM")
 
         return data
 

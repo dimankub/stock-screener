@@ -16,6 +16,7 @@ metrics:
     - net_margin
     - dividend_yield
     - eps_ttm
+    - pfcfShareTTM
     
 
 defaults:
