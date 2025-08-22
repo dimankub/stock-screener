@@ -11,6 +11,7 @@ LABELS = {
     "dividend_yield": "Dividend Yield",
     "eps_ttm": "EPS TTM",
     "pfcfShareTTM": "P/CF TTM",
+    "longTermDebt/equityAnnual": "Long-Term Debt/Equity Ratio"
 }
 
 with open("config.yaml", "r", encoding="utf-8") as f:

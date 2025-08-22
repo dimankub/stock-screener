@@ -17,6 +17,7 @@ metrics:
     - dividend_yield
     - eps_ttm
     - pfcfShareTTM
+    - longTermDebt/equityAnnual
     
 
 defaults:

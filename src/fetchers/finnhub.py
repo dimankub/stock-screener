@@ -46,6 +46,8 @@ def fetch_basic_data(ticker: str) -> dict:
             data["eps_ttm"] = fundamentals.get("epsTTM")
         if "pfcfShareTTM" in enabled_metrics:
             data["pfcfShareTTM"] = fundamentals.get("pfcfShareTTM")
+        if "longTermDebt/equityAnnual" in enabled_metrics:
+            data["longTermDebt/equityAnnual"] = fundamentals.get("longTermDebt/equityAnnual")
 
         return data
 
