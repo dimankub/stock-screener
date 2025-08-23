@@ -18,6 +18,7 @@ metrics:
     - eps_ttm
     - pfcfShareTTM
     - longTermDebt/equityAnnual
+    - epsGrowth5Y
     
 
 defaults:
