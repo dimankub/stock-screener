@@ -19,6 +19,7 @@ metrics:
     - pfcfShareTTM
     - longTermDebt/equityAnnual
     - epsGrowth5Y
+    - beta
     
 
 defaults:

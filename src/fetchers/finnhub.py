@@ -50,6 +50,8 @@ def fetch_basic_data(ticker: str) -> dict:
             data["longTermDebt/equityAnnual"] = fundamentals.get("longTermDebt/equityAnnual")
         if "epsGrowth5Y" in enabled_metrics:
             data["epsGrowth5Y"] = fundamentals.get("epsGrowth5Y")
+        if "beta" in enabled_metrics:
+            data["beta"] = fundamentals.get("beta")
 
         return data
 

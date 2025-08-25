@@ -12,7 +12,8 @@ LABELS = {
     "eps_ttm": "EPS TTM",
     "epsGrowth5Y": "EPS Growth 5Y",
     "pfcfShareTTM": "P/CF TTM",
-    "longTermDebt/equityAnnual": "Long-Term Debt/Equity Ratio"
+    "longTermDebt/equityAnnual": "Long-Term Debt/Equity Ratio",
+    "beta": "Beta (Volatility)"
 }
 
 with open("config.yaml", "r", encoding="utf-8") as f:
