@@ -20,6 +20,7 @@ metrics:
     - longTermDebt/equityAnnual
     - epsGrowth5Y
     - beta
+    - payoutRatioAnnual
     
 
 defaults:
