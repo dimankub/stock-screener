@@ -14,7 +14,8 @@ LABELS = {
     "pfcfShareTTM": "P/CF TTM",
     "longTermDebt/equityAnnual": "Long-Term Debt/Equity Ratio",
     "beta": "Beta (Volatility)",
-    "payoutRatioAnnual": "Payout Ratio"
+    "payoutRatioAnnual": "Payout Ratio",
+    "grossMarginAnnual": "Gross Margin"
 }
 
 with open("config.yaml", "r", encoding="utf-8") as f:

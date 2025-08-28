@@ -54,6 +54,8 @@ def fetch_basic_data(ticker: str) -> dict:
             data["beta"] = fundamentals.get("beta")
         if "payoutRatioAnnual" in enabled_metrics:
             data["payoutRatioAnnual"] = fundamentals.get("payoutRatioAnnual")
+        if "grossMarginAnnual" in enabled_metrics:
+            data["grossMarginAnnual"] = fundamentals.get("grossMarginAnnual")
 
         return data
 

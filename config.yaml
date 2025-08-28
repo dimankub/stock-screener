@@ -21,6 +21,7 @@ metrics:
     - epsGrowth5Y
     - beta
     - payoutRatioAnnual
+    - grossMarginAnnual
     
 
 defaults:
