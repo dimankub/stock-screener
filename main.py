@@ -15,7 +15,8 @@ LABELS = {
     "longTermDebt/equityAnnual": "Long-Term Debt/Equity Ratio",
     "beta": "Beta (Volatility)",
     "payoutRatioAnnual": "Payout Ratio",
-    "grossMarginAnnual": "Gross Margin"
+    "grossMarginAnnual": "Gross Margin",
+    "currentRatioAnnual": "Current Ratio"
 }
 
 with open("config.yaml", "r", encoding="utf-8") as f:
