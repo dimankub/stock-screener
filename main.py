@@ -16,7 +16,8 @@ LABELS = {
     "beta": "Beta (Volatility)",
     "payoutRatioAnnual": "Payout Ratio",
     "grossMarginAnnual": "Gross Margin",
-    "currentRatioAnnual": "Current Ratio"
+    "currentRatioAnnual": "Current Ratio",
+    "revenueGrowth5Y": "Revenue Growth"
 }
 
 with open("config.yaml", "r", encoding="utf-8") as f:

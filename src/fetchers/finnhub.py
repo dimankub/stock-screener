@@ -58,6 +58,8 @@ def fetch_basic_data(ticker: str) -> dict:
             data["grossMarginAnnual"] = fundamentals.get("grossMarginAnnual")
         if "currentRatioAnnual" in enabled_metrics:
             data["currentRatioAnnual"] = fundamentals.get("currentRatioAnnual")
+        if "revenueGrowth5Y" in enabled_metrics:
+            data["revenueGrowth5Y"] = fundamentals.get("revenueGrowth5Y")
 
         return data
 
