@@ -16,15 +16,16 @@
 	- ROI (Return on Investment)
 	- Net Profit Margin (Чистая маржа)
 	- Dividend Yield (Дивидендная доходность)
-	- EPS (Earnings per share, TTM)
+	- EPS (Прибыль на акцию, TTM)
 	- Price/Free Cash Flow (TTM)
 	- Long-term Debt/Equity Ratio
-	- EPS Growth (5Y) — средний рост прибыли на акцию за 5 лет
-	- Beta (рыночная волатильность)
+	- EPS Growth (5Y)  (Средний рост прибыли на акцию за 5 лет)
+	- Beta (Рыночная волатильность)
 	- Payout Ratio (Коэффициент дивидендных выплат)
 	- Gross Margin (Валовая маржа)
 	- Market Capitalization (Капитализация)
-	- Net Profit Margin (Annual)
+	- Net Profit Margin (Чистая рентабельность продаж)
+	- Current Ratio (Текущая ликвидность)
 
 
 ## Установка
