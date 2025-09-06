@@ -26,6 +26,7 @@ A tool for evaluating and comparing stocks based on a wide range of fundamental 
 	- Market Capitalization
 	- Net Profit Margin (Annual)
 	- Current Ratio
+	- Revenue Growth
 
 
 ## Installation
