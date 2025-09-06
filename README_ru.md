@@ -26,6 +26,7 @@
 	- Market Capitalization (Капитализация)
 	- Net Profit Margin (Чистая рентабельность продаж)
 	- Current Ratio (Текущая ликвидность)
+	- Revenue Growth (Долгосрочный рост выручки)
 
 
 ## Установка
