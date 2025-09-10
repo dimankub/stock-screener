@@ -62,6 +62,8 @@ def fetch_basic_data(ticker: str) -> dict:
             data["revenueGrowth5Y"] = fundamentals.get("revenueGrowth5Y")
         if "dividendGrowthRate5Y" in enabled_metrics:
             data["dividendGrowthRate5Y"] = fundamentals.get("dividendGrowthRate5Y")
+        if "operatingMarginTTM" in enabled_metrics:
+            data["operatingMarginTTM"] = fundamentals.get("operatingMarginTTM")
 
         return data
 

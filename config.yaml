@@ -25,7 +25,8 @@ metrics:
     - grossMarginAnnual
     - currentRatioAnnual
     - dividendGrowthRate5Y
-    
+    - operatingMarginTTM
+  
 
 defaults:
   currency: USD
