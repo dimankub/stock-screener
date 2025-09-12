@@ -28,6 +28,7 @@ A tool for evaluating and comparing stocks based on a wide range of fundamental 
 	- Current Ratio
 	- Revenue Growth
 	- Dividend Growth
+	- Operating Margin TTM
 
 
 ## Installation
