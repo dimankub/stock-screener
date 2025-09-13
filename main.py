@@ -19,7 +19,8 @@ LABELS = {
     "currentRatioAnnual": "Current Ratio",
     "revenueGrowth5Y": "Revenue Growth",
     "dividendGrowthRate5Y": "Dividend Growth Rate 5Y",
-    "operatingMarginTTM": "Operating Margin TTM"
+    "operatingMarginTTM": "Operating Margin TTM",
+    "assetTurnoverAnnual": "Asset Turnover"
 }
 
 with open("config.yaml", "r", encoding="utf-8") as f:
