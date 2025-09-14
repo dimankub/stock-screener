@@ -29,6 +29,7 @@ A tool for evaluating and comparing stocks based on a wide range of fundamental 
 	- Revenue Growth
 	- Dividend Growth
 	- Operating Margin TTM
+	- Asset Turnover Annual
 
 
 ## Installation
