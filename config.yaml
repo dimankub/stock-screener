@@ -22,8 +22,9 @@ metrics:
     - revenueGrowth5Y
     - beta
     - payoutRatioAnnual
-    - grossMarginAnnual
+    - quickRatioAnnual
     - currentRatioAnnual
+    - grossMarginAnnual
     - dividendGrowthRate5Y
     - operatingMarginTTM
     - assetTurnoverAnnual

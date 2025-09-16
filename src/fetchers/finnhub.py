@@ -66,6 +66,8 @@ def fetch_basic_data(ticker: str) -> dict:
             data["operatingMarginTTM"] = fundamentals.get("operatingMarginTTM")
         if "assetTurnoverAnnual" in enabled_metrics:
             data["assetTurnoverAnnual"] = fundamentals.get("assetTurnoverAnnual")
+        if "quickRatioAnnual" in enabled_metrics:
+            data["quickRatioAnnual"] = fundamentals.get("quickRatioAnnual")
 
         return data
 
