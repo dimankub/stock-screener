@@ -30,6 +30,7 @@ A tool for evaluating and comparing stocks based on a wide range of fundamental 
 	- Dividend Growth
 	- Operating Margin TTM
 	- Asset Turnover Annual
+	= Quick Ratio
 
 
 ## Installation
