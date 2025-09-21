@@ -21,7 +21,8 @@ LABELS = {
     "dividendGrowthRate5Y": "Dividend Growth Rate 5Y",
     "operatingMarginTTM": "Operating Margin TTM",
     "assetTurnoverAnnual": "Asset Turnover",
-    "quickRatioAnnual": "Quick Ratio"
+    "quickRatioAnnual": "Quick Ratio",
+    "cashFlowPerShareAnnual": "Cash Flow Per Share Annual"
 }
 
 with open("config.yaml", "r", encoding="utf-8") as f:

@@ -28,6 +28,7 @@ metrics:
     - dividendGrowthRate5Y
     - operatingMarginTTM
     - assetTurnoverAnnual
+    - cashFlowPerShareAnnual
   
 
 defaults:
