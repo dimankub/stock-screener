@@ -31,6 +31,7 @@ A tool for evaluating and comparing stocks based on a wide range of fundamental 
 	- Operating Margin TTM
 	- Asset Turnover Annual
 	- Quick Ratio
+	- Cash Flow Per Share
 	
 
 
