@@ -29,6 +29,7 @@ metrics:
     - operatingMarginTTM
     - assetTurnoverAnnual
     - cashFlowPerShareAnnual
+    - totalDebt/totalEquityAnnual
   
 
 defaults:
