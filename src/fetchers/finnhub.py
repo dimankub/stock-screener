@@ -72,6 +72,8 @@ def fetch_basic_data(ticker: str) -> dict:
             data["cashFlowPerShareAnnual"] = fundamentals.get("cashFlowPerShareAnnual")
         if "totalDebt/totalEquityAnnual" in enabled_metrics:
             data["totalDebt/totalEquityAnnual"] = fundamentals.get("totalDebt/totalEquityAnnual")
+        if "inventoryTurnoverAnnual" in enabled_metrics:
+            data["inventoryTurnoverAnnual"] = fundamentals.get("inventoryTurnoverAnnual")
 
         return data
 

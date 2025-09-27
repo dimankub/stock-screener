@@ -30,6 +30,7 @@ metrics:
     - assetTurnoverAnnual
     - cashFlowPerShareAnnual
     - totalDebt/totalEquityAnnual
+    - inventoryTurnoverAnnual
   
 
 defaults:

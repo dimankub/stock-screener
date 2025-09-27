@@ -23,7 +23,8 @@ LABELS = {
     "assetTurnoverAnnual": "Asset Turnover",
     "quickRatioAnnual": "Quick Ratio",
     "cashFlowPerShareAnnual": "Cash Flow Per Share Annual",
-    "totalDebt/totalEquityAnnual": "Total Debt/Equity"
+    "totalDebt/totalEquityAnnual": "Total Debt/Equity",
+    "inventoryTurnoverAnnual": "Inventory Turnover"
 }
 
 with open("config.yaml", "r", encoding="utf-8") as f:
