@@ -33,6 +33,7 @@ A tool for evaluating and comparing stocks based on a wide range of fundamental 
 	- Quick Ratio
 	- Cash Flow Per Share
 	- Total Debt/Equity
+	- Inventory Turnover
 	
 
 
