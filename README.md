@@ -23,7 +23,7 @@ A tool for evaluating and comparing stocks based on a wide range of fundamental 
 	- Beta (shows how volatile the stock is compared to the market)
 	- Payout Ratio (dividend payout ratio)
 	- Gross Margin (profit after production costs, % of revenue)
-	- Market Capitalization
+	- Market Capitalization (total market value of the company’s shares)
 	- Net Profit Margin (Annual)
 	- Current Ratio
 	- Revenue Growth
