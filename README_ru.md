@@ -17,7 +17,7 @@
 	- Net Profit Margin (Чистая маржа)
 	- Dividend Yield (Дивидендная доходность)
 	- EPS (Прибыль на акцию, TTM)
-	- Price/Free Cash Flow (TTM)
+	- Price/Free Cash Flow (TTM) (Свободный денежный поток для компании)
 	- Long-term Debt/Equity Ratio
 	- EPS Growth (5Y)  (Средний рост прибыли на акцию за 5 лет)
 	- Beta (Рыночная волатильность)
