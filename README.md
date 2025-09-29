@@ -28,7 +28,7 @@ A tool for evaluating and comparing stocks based on a wide range of fundamental 
 	- Current Ratio (current assets divided by current liabilities)
 	- Revenue Growth (percentage increase in company’s revenue)
 	- Dividend Growth (growth of dividend payments over time)
-	- Operating Margin TTM
+	- Operating Margin TTM (operating profit as % of revenue in last 12 months)
 	- Asset Turnover Annual
 	- Quick Ratio
 	- Cash Flow Per Share
