@@ -24,7 +24,7 @@ A tool for evaluating and comparing stocks based on a wide range of fundamental 
 	- Payout Ratio (dividend payout ratio)
 	- Gross Margin (profit after production costs, % of revenue)
 	- Market Capitalization (total market value of the company’s shares)
-	- Net Profit Margin (Annual)
+	- Net Profit Margin (Annual, profit margin for the whole year)
 	- Current Ratio
 	- Revenue Growth
 	- Dividend Growth
