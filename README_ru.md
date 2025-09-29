@@ -10,7 +10,7 @@
 - Поиск акций по тикеру
 - Расчёт и отображение финансовых данных:
 	- P/E (цена/прибыль)
-	- P/B (Price to Book)
+	- P/B (цена/балансовая стоимость)
 	- ROE (Return on Equity)
 	- ROA (Return on Assets)
 	- ROI (Return on Investment)
