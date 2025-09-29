@@ -18,7 +18,7 @@
 	- Dividend Yield (Дивидендная доходность)
 	- EPS (Прибыль на акцию, TTM)
 	- Price/Free Cash Flow (TTM) (Свободный денежный поток для компании)
-	- Long-term Debt/Equity Ratio
+	- Long-term Debt/Equity Ratio (Соотношение заемного и собственного капитала)
 	- EPS Growth (5Y)  (Средний рост прибыли на акцию за 5 лет)
 	- Beta (Рыночная волатильность)
 	- Payout Ratio (Коэффициент дивидендных выплат)
