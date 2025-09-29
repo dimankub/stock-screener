@@ -30,7 +30,7 @@ A tool for evaluating and comparing stocks based on a wide range of fundamental 
 	- Dividend Growth (growth of dividend payments over time)
 	- Operating Margin TTM (operating profit as % of revenue in last 12 months)
 	- Asset Turnover Annual (how efficiently assets are used to generate sales)
-	- Quick Ratio
+	- Quick Ratio (liquid assets compared to current liabilities)
 	- Cash Flow Per Share
 	- Total Debt/Equity
 	- Inventory Turnover
