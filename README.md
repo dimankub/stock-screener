@@ -25,7 +25,7 @@ A tool for evaluating and comparing stocks based on a wide range of fundamental 
 	- Gross Margin (profit after production costs, % of revenue)
 	- Market Capitalization (total market value of the company’s shares)
 	- Net Profit Margin (Annual, profit margin for the whole year)
-	- Current Ratio
+	- Current Ratio (current assets divided by current liabilities)
 	- Revenue Growth
 	- Dividend Growth
 	- Operating Margin TTM
