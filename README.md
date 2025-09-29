@@ -31,7 +31,7 @@ A tool for evaluating and comparing stocks based on a wide range of fundamental 
 	- Operating Margin TTM (operating profit as % of revenue in last 12 months)
 	- Asset Turnover Annual (how efficiently assets are used to generate sales)
 	- Quick Ratio (liquid assets compared to current liabilities)
-	- Cash Flow Per Share
+	- Cash Flow Per Share (cash generated per share)
 	- Total Debt/Equity
 	- Inventory Turnover
 	
