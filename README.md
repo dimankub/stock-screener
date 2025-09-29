@@ -15,7 +15,7 @@ A tool for evaluating and comparing stocks based on a wide range of fundamental 
 	- ROA (Return on Assets)
 	- ROI (Return on Investment)
 	- Net Profit Margin (percentage of revenue left as profit)
-	- Dividend Yield
+	- Dividend Yield (dividends compared to stock price, in %)
 	- EPS (Earnings per Share, TTM)
 	- Price/Free Cash Flow (TTM)
 	- Long-term Debt/Equity Ratio
