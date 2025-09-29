@@ -12,7 +12,7 @@
 	- P/E (цена/прибыль)
 	- P/B (цена/балансовая стоимость)
 	- ROE (рентабельность собственного капитала)
-	- ROA (Return on Assets)
+	- ROA (рентабельность активов)
 	- ROI (Return on Investment)
 	- Net Profit Margin (Чистая маржа)
 	- Dividend Yield (Дивидендная доходность)
