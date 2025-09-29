@@ -19,7 +19,7 @@ A tool for evaluating and comparing stocks based on a wide range of fundamental 
 	- EPS (Earnings per Share, TTM)
 	- Price/Free Cash Flow (TTM, stock price compared to free cash flow per share)
 	- Long-term Debt/Equity Ratio (long-term debt compared to equity)
-	- EPS Growth (5Y) — average EPS growth over 5 years
+	- EPS Growth (5Y,  average EPS growth over 5 years)
 	- Beta (market volatility)
 	- Payout Ratio (dividend payout ratio)
 	- Gross Margin
