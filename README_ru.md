@@ -11,7 +11,7 @@
 - Расчёт и отображение финансовых данных:
 	- P/E (цена/прибыль)
 	- P/B (цена/балансовая стоимость)
-	- ROE (Return on Equity)
+	- ROE (рентабельность собственного капитала)
 	- ROA (Return on Assets)
 	- ROI (Return on Investment)
 	- Net Profit Margin (Чистая маржа)
