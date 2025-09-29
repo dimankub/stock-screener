@@ -26,7 +26,7 @@ A tool for evaluating and comparing stocks based on a wide range of fundamental 
 	- Market Capitalization (total market value of the company’s shares)
 	- Net Profit Margin (Annual, profit margin for the whole year)
 	- Current Ratio (current assets divided by current liabilities)
-	- Revenue Growth
+	- Revenue Growth (percentage increase in company’s revenue)
 	- Dividend Growth
 	- Operating Margin TTM
 	- Asset Turnover Annual
