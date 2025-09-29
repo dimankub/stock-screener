@@ -33,7 +33,7 @@ A tool for evaluating and comparing stocks based on a wide range of fundamental 
 	- Quick Ratio (liquid assets compared to current liabilities)
 	- Cash Flow Per Share (cash generated per share)
 	- Total Debt/Equity (total debt compared to company equity)
-	- Inventory Turnover
+	- Inventory Turnover (how quickly stock is sold and replaced)
 	
 
 
