@@ -20,9 +20,9 @@ A tool for evaluating and comparing stocks based on a wide range of fundamental 
 	- Price/Free Cash Flow (TTM, stock price compared to free cash flow per share)
 	- Long-term Debt/Equity Ratio (long-term debt compared to equity)
 	- EPS Growth (5Y,  average EPS growth over 5 years)
-	- Beta (market volatility)
+	- Beta (shows how volatile the stock is compared to the market)
 	- Payout Ratio (dividend payout ratio)
-	- Gross Margin
+	- Gross Margin (profit after production costs, % of revenue)
 	- Market Capitalization
 	- Net Profit Margin (Annual)
 	- Current Ratio
